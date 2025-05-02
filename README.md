@@ -20,7 +20,7 @@ A complete trip planning assistant that:
 - Generates printable itineraries  
 
 **Try it:**
-```bash
+
 python examples/travel_agent.py
 
 ### 2. Data Analysis Assistant
@@ -36,7 +36,6 @@ Exports results
 
 
 **Try it:**
-```bash
 python examples/data_analyst.py
 
 ## Architecture
@@ -57,9 +56,9 @@ gemma-function-calling/
 🚀 Quick Start
 Install dependencies:
 
-bash
 pip install -r requirements.txt
 pip install -e .  # Install in editable mode
+
 Run examples:
 
 bash
@@ -69,10 +68,9 @@ python examples/travel_agent.py
 # Data analysis tool
 python examples/data_analyst.py
 
-
 Extend with your own functions:
 
-
+```bash
 from core import FunctionRouter
 router = FunctionRouter()
 
@@ -80,3 +78,4 @@ router = FunctionRouter()
 async def your_function(param: str):
     """Your function's docstring becomes the API description"""
     return {"result": param.upper()}
+```
