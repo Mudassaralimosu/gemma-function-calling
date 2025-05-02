@@ -1,0 +1,161 @@
+python examples/travel_agent.py
+Searching flights from NYC to London...
+[
+  {
+    "airline": "Southwest",
+    "price": 274,
+    "departure": "2024-07-15T18:00:00",
+    "duration": "2h 2m"
+  },
+  {
+    "airline": "Southwest",
+    "price": 428,
+    "departure": "2024-07-15T16:00:00",
+    "duration": "4h 45m"
+  },
+  {
+    "airline": "American",
+    "price": 761,
+    "departure": "2024-07-15T7:00:00",
+    "duration": "1h 49m"
+  }
+]
+
+Searching hotels in London...
+[
+  {
+    "name": "Plaza Hotel",
+    "price": 196,
+    "rating": 4.7,
+    "amenities": [
+      "pool",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Plaza Hotel",
+    "price": 111,
+    "rating": 4.7,
+    "amenities": [
+      "pool",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Plaza Hotel",
+    "price": 174,
+    "rating": 4.5,
+    "amenities": [
+      "breakfast",
+      "pool"
+    ]
+  }
+]
+
+Getting weather forecast...
+{
+  "date": "2024-07-16",
+  "condition": "cloudy",
+  "high": 75,
+  "low": 53
+}
+
+Finding attractions...
+[
+  {
+    "name": "Historic Site at London",
+    "type": "cultural",
+    "price": "$"
+  },
+  {
+    "name": "Market of London",
+    "type": "food",
+    "price": "Free"
+  }
+]
+
+Booking selections...
+{
+  "confirmation": "HOTEL-6521",
+  "status": "confirmed",
+  "price": 209
+}
+
+Saving itinerary...
+Itinerary saved to london_trip.json
+
+
+
+python examples/data_analyst.py
+Dataset loaded with 1000 rows and 7 columns
+[
+  {
+    "name": "order_id",
+    "type": "int64"
+  },
+  {
+    "name": "product_name",
+    "type": "object"
+  },
+  {
+    "name": "quantity",
+    "type": "int64"
+  },
+  {
+    "name": "revenue",
+    "type": "float64"
+  },
+  {
+    "name": "customer_age",
+    "type": "int64"
+  },
+  {
+    "name": "region",
+    "type": "object"
+  },
+  {
+    "name": "purchase_date",
+    "type": "object"
+  }
+]
+{
+  "count": 1000.0,
+  "mean": 4243.59349,
+  "std": 3539.5133848301675,
+  "min": 52.73,
+  "25%": 1348.02,
+  "50%": 3049.9700000000003,
+  "75%": 6427.795,
+  "max": 14840.9
+}
+{
+  "type": "histogram",
+  "data": {
+    "counts": [
+      224,
+      150,
+      110,
+      87,
+      70,
+      56,
+      45,
+      41,
+      23,
+      9
+    ],
+    "bins": [
+      1006.46,
+      2389.904,
+      3773.348,
+      5156.792,
+      6540.236,
+      7923.679999999999,
+      9307.124,
+      10690.568,
+      12074.011999999999,
+      13457.455999999998,
+      14840.9
+    ]
+  }
+}
+Results saved to filtered_results.csv

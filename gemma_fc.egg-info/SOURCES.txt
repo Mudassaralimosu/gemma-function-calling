@@ -1,0 +1,12 @@
+setup.py
+core/__init__.py
+core/error_handler.py
+core/function_router.py
+core/plugin_loader.py
+core/schema_validator.py
+gemma_fc.egg-info/PKG-INFO
+gemma_fc.egg-info/SOURCES.txt
+gemma_fc.egg-info/dependency_links.txt
+gemma_fc.egg-info/top_level.txt
+tests/test_error_handling.py
+tests/test_validation.py

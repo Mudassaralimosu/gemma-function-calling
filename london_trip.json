@@ -1,0 +1,22 @@
+[
+  {
+    "airline": "American",
+    "price": 288,
+    "departure": "2024-07-15T11:00:00",
+    "duration": "1h 35m"
+  },
+  {
+    "name": "Sunset Hotel",
+    "price": 146,
+    "rating": 5.0,
+    "amenities": [
+      "wifi",
+      "breakfast"
+    ]
+  },
+  {
+    "confirmation": "HOTEL-6625",
+    "status": "confirmed",
+    "price": 290
+  }
+]
